@@ -22,10 +22,19 @@ The toolbox contains three tools that run sequentially:
 - Spatial Analyst extension
 - Input: bare-earth DEM (LiDAR-derived recommended)
 
-## Documentation
+## Installation
 
-See **DitchExtraction_UserManual.pdf** for detailed instructions, 
-screenshots, and parameter descriptions.
+> ⚠️ **Important:** Download the **entire repository**, not just the `.atbx` 
+> toolbox file. The tools rely on supporting scripts, geodatabases, and an 
+> ArcGIS Pro project file with pre-configured paths. Downloading the toolbox 
+> alone will result in broken references and tool failures.
+
+To download:
+
+1. Click the green **Code** button at the top of this repository.
+2. Select **Download ZIP**.
+3. Extract the downloaded zip file to your preferred location.
+4. Open `DitchExtraction.aprx` in ArcGIS Pro to access the toolbox.
 
 ## Usage
 
@@ -33,10 +42,17 @@ It is recommended that all tools be executed within the provided
 ArcGIS Pro project (`DitchExtraction.aprx`) to ensure proper path 
 management and avoid broken data references.
 
+## Documentation
+
+See `DitchExtraction_UserManual.pdf` for detailed instructions, screenshots, 
+and parameter descriptions.
+
 ## Contact 
 
-Emily Guyu Yang 
+**Author:** Emily Guyu Yang<br>
+**Email:** emily.yang@duke.edu<br>
+**Affiliation:** Duke University
 
-emily.yang@duke.edu  
+## License
 
-Duke University
+This toolbox is released under the MIT License. See `LICENSE` file for details.
