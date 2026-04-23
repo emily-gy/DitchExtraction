@@ -35,6 +35,4 @@ management and avoid broken data references.
 
 ## Contact 
 
-Emily Guyu Yang/
-emily.yang@duke.edu/
-Duke University
+Emily Guyu Yang / emily.yang@duke.edu / Duke University
